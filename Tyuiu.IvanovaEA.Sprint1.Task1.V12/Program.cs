@@ -2,7 +2,7 @@
 //вычисляет результат по формуле (x + y) / 6 и печатает его на экране.
 
 using Tyuiu.IvanovaEA.Sprint1.Task1.V12.Lib;
-
+ 
 
 namespace Tyuiu.IvanovaEA.Sprint1.Task1.V12
 {
