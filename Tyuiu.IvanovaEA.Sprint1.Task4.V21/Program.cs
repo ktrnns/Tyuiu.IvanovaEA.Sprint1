@@ -51,7 +51,7 @@ namespace Tyuiu.IvanovaEA.Sprint1.Task4.V21
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Результат: " + ds.Calculate(x, y).ToString("F3"));
+            Console.WriteLine("Результат вычисления: " + ds.Calculate(x, y).ToString("F3"));
 
             Console.ReadLine();
         }
