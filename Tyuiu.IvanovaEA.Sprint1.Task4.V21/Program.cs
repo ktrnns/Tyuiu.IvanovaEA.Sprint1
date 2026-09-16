@@ -41,6 +41,12 @@ namespace Tyuiu.IvanovaEA.Sprint1.Task4.V21
             Console.WriteLine("Введите Y:");
             y = Convert.ToInt32(Console.ReadLine());
 
+            if (x + y == 0)
+            {
+                Console.WriteLine("Ошибка: деление на ноль!");
+                return;
+            }
+
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
