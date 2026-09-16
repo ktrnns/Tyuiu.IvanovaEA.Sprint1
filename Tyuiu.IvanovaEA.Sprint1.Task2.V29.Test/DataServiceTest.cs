@@ -3,7 +3,7 @@
 namespace Tyuiu.IvanovaEA.Sprint1.Task2.V29.Test
 {
     [TestClass]
-    public sealed class DataServiceTest
+    public class DataServiceTest
     {
         [TestMethod]
         public void ValidExpression()
