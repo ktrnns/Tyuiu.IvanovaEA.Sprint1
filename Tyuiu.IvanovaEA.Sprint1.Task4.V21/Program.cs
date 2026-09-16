@@ -36,10 +36,10 @@ namespace Tyuiu.IvanovaEA.Sprint1.Task4.V21
             double y;
 
             Console.WriteLine("Введите X:");
-            x = Convert.ToInt32(Console.ReadLine());
+            x = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Введите Y:");
-            y = Convert.ToInt32(Console.ReadLine());
+            y = Convert.ToDouble(Console.ReadLine());
 
             if (x + y == 0)
             {
@@ -56,5 +56,4 @@ namespace Tyuiu.IvanovaEA.Sprint1.Task4.V21
             Console.ReadLine();
         }
     }
-
 }
