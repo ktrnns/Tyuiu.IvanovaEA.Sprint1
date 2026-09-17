@@ -6,7 +6,10 @@ namespace Tyuiu.IvanovaEA.Sprint1.Task4.V21.Lib
     {
         public double Calculate(double x, double y)
         {
-            return Math.Abs(Math.Pow(1 + x, 2) - y) / (x + y);
+            double result = Math.Abs(Math.Pow(1 + x, 2) - y) / (x + y);
+
+            return Math.Round(result, 3);
         }
     }
 }
+    
